@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', Tahoma, Geneva, sans-serif;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#circle {
+    position: relative;
+    min-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 30px 60px rgba(0,0,0,.2);
+    border-radius: 30px;
+}
+
+#circle .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#circle .percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#circle .percent svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+#circle .percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+}
+
+#circle .percent .number h2 {
+    font-size: 48px;
+}
+
+#circle .percent .number h2 span {
+    font-size: 24px;
+}
+
+#circle .text {
+    padding: 10px 0 0;
+    color: #999;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+[cronometro] {
+    margin-top: 20px;
+}
+
+[cronometro] span {
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(56, 56, 56);
+    background-color: rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+
+#group-btn span {
+    cursor: pointer;
+    font-size: 50px;
+    transition: 0.2s;
+}
+
+#group-btn span:hover {
+    color: rgb(148, 147, 147);
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#share {
+    cursor: pointer;
+    color: rgb(9, 129, 89);
+}

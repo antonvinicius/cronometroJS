@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronometroJS</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <section id="app">
+        <header>CronômetroJS</header>
+        <div id="circle">
+            <div class="percent">
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+            </div>
+            <div cronometro>
+                <span id="horas">00</span>
+                <span id="minutos">00</span>
+                <span id="segundos">00</span>
+                <span id="decimos">00</span>
+            </div>
+            <div id="group-btn">
+                <span reset>
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </span>
+                <span begin>
+                    <span class="material-icons">
+                        play_circle_filled
+                    </span>
+                </span>
+                <span pause>
+                    <span class="material-icons">
+                        pause_circle_filled
+                    </span>
+                </span>
+            </div>
+        </div>
+        <footer>
+            <span>Feito por Antônio Vinícius 👨‍💻<br></span>
+            <span id="share">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </span>
+        </footer>
+    </section>
+
+
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
