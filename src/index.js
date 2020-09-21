@@ -11,7 +11,7 @@ const timer_dec = document.getElementById('decimos');
 
 const progressBar = document.querySelector('#circle .percent svg circle');
 
-var d = 0; s = 59; m = 59; h = 23;
+var d = 0; s = 0; m = 0; h = 0;
 var crono; isPause = false; isReset = false;
 var progress = 440;
 
